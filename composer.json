@@ -1,0 +1,25 @@
+{
+    "name": "harshil/dockerise",
+    "description": "make all configuration to dockerise your project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harshil Amreliya",
+            "email": "harshil.simform@clubforce.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "\\harshil\\dockerise" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "harshil\\dockerise\\DockerLaravelSetupServiceProvider"
+            ]
+        }
+    }
+}
