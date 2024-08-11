@@ -15,5 +15,12 @@
             "harshil\\dockerise\\" : "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "harshil\\dockerise\\DockerLaravelSetupServiceProvider"
+            ]
+        }
+    },
     "prefer-stable": true
 }
